@@ -19,7 +19,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by lzz on 2018/2/7.
  */
 public class XmlUtil {
-    private static final String BASE_PATH = "doc/";
+    private static final String BASE_PATH = "zookeeper-manager/doc/";
     private static final String TEMPLATE_FILE = "template.xml";
     private static final String UNDEFINED_NAME = "undefined";
     private static Map<String, Map<String, String>> mxlMap = new HashMap<>();
